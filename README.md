@@ -1,6 +1,6 @@
 # BotFramework S3Storage
 
-これは[BotFramwork](https://github.com/Microsoft/botframework)のbotの状態を`memoryStorage`に代わり、S3に保存するライブラリです。  
+これは[BotFramework](https://github.com/Microsoft/botframework)のbotの状態を`MemoryStorage`に代わり、S3に保存するライブラリです。  
 AWS上でBotFrameworkをサーバーレスで動かす場合に利用します。
 
 ## Installation
@@ -34,7 +34,7 @@ const s3Storage = new S3Storage('store-bucket', {
 
 ## Example
 
-`memoryStorage`と差し替えるだけです。
+`MemoryStorage`と差し替えるだけです。
 
 ```javascript
 import S3Storage from 'botframework-s3storage';
