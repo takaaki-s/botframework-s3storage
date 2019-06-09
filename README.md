@@ -14,6 +14,8 @@ npm install --save botframework-s3storage
 コンストラクタでストア先のバケットを指定します。
 
 ```javascript
+import S3Storage from 'botframework-s3storage';
+
 const s3Storage = new S3Storage('store-bucket');
 ```
 
@@ -22,6 +24,8 @@ S3のコンストラクタに渡すオプションを第二引数で指定可能
 https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property
 
 ```javascript
+import S3Storage from 'botframework-s3storage';
+
 const s3Storage = new S3Storage('store-bucket', {
   region: 'ap-northeast-1',
   apiVersion: '2006-03-01',
@@ -33,7 +37,7 @@ const s3Storage = new S3Storage('store-bucket', {
 `memoryStorage`と差し替えるだけです。
 
 ```javascript
-import S3SStorage from 'botframework-s3storage';
+import S3Storage from 'botframework-s3storage';
 import { ConversationState, UserState } from 'botbuilder';
 
 const s3Storage = new S3Storage('YOUR_STORE_BUCKET', {'YOUR_S3_OPTIONS'});
