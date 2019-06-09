@@ -1,6 +1,6 @@
 {
   "name": "botframework-s3storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a library to store botframework bot state to s3",
   "main": "dist/s3storage.js",
   "scripts": {
@@ -8,6 +8,16 @@
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
+  "keywords": [
+    "botframework",
+    "botbuilder",
+    "memorystorage",
+    "serverless",
+    "lambda",
+    "s3",
+    "aws",
+    "storage"
+  ],
   "author": "Takaaki Sato (https://github.com/takaaki-s/)",
   "license": "MIT",
   "dependencies": {
