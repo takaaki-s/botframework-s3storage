@@ -11,6 +11,7 @@ npm install --save botframework-s3storage
 
 ## Usage
 
+あらかじめストア先のバケットは作成しておきます。
 コンストラクタでストア先のバケットを指定します。
 
 ```javascript
@@ -46,3 +47,5 @@ const userState = new UserState(s3Storage);
 
 // ...
 ```
+
+https://github.com/takaaki-s/serverless-botframework

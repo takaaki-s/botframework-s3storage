@@ -1,6 +1,6 @@
 {
   "name": "botframework-s3storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a library to store botframework bot state to s3",
   "main": "dist/s3storage.js",
   "scripts": {
